@@ -35,6 +35,23 @@
             </div>
           </div>
         </div>
+        <div class="blog_main_item">
+          <div class="title">
+            <router-link to="/two">
+              项目如何上传Github？
+            </router-link>
+          </div>
+          <el-image :src="two"></el-image>
+          <div class="item_right">
+            <div class="item_right_top">
+              这方面的只是较为匮乏，需要细心学习。
+            </div>
+            <div class="item_right_middle">
+              范宇
+              2020年3月5日
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -42,11 +59,13 @@
 <script>
 import tou from "../../public/myBlog/tou.jpg"
 import one from "../../public/myBlog/one.jpg"
+import two from "../../public/myBlog/two.jpg"
 export default {
   data() {
     return {
       tou:tou,
-      one:one
+      one:one,
+      two
     }
   }
 }

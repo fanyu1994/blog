@@ -32,10 +32,10 @@
         技术掌握
       </div>
       <div class="me_email">
-      <span>● 使用vue框架</span>
-      <span>● 掌握html、css、ES6、Webpack</span>
-      <span>● 使用node/koa框架（请求处理）</span>
-      <span>● 使用sequelize对数据库增删改查</span>
+      <span>● 掌握vue框架</span>
+      <span>● 掌握html、css、ES6、Webpack（初步配置）</span>
+      <span>● 掌握node/koa框架（请求处理）</span>
+      <span>● 掌握sequelize对数据库增删改查</span>
       </div>
       <div class="me_one">
         <div class="me_hoon"></div>
@@ -54,6 +54,19 @@
       <span>● 自媒体运营（2018.8~2019.6）</span>
       <span>● 工程项目资料员（2019.6~2019.9）</span>
       <span>● 自学前端（2019.9~）</span>
+      </div>
+      <div class="me_one">
+        <div class="me_hoon"></div>
+        自我总结
+      </div>
+      <div class="me_email">
+        <p>
+        时间不会区别对待任何人，我已经在其它领域花费了1年时间，虽然所得甚少，
+        但是也不会后悔，年轻就应该尝试。<br/>
+        我的为人比较的慢热，注定了我不是一个能够在酒场上八面玲珑的人。
+        走上编程的道路，也是对自己的一个清醒认知。恰巧自己也是一个喜欢技术的人，
+        能够在这方面感觉到快乐。
+        </p>
       </div>
     </div>
   </div>
