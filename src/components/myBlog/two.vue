@@ -25,10 +25,19 @@
     <pre>
       此命令生成一次提交，将暂存区里的改动给提交到本地的版本库
     </pre>
-    <h4>7、git push -u origin master</h4>
+    <h4>7、git remote add origin https://github.com/Vivianyuwei</h4>
+    <pre>
+      此命令写仓库url地址（上面有说到） 将本地的仓库关联到github上
+    </pre>
+    <h4>8、git push -u origin master</h4>
     <pre>
       此命令把本地仓库push到github上面，需要你输入帐号和密码
     </pre>
+    <h4>9、git status/git add ./git commit -m "本次更新的说明"/git push origin master</h4>
+    <pre>
+      此命令用于更新仓库
+    </pre>
+
   </div>
 </template>
 <script>

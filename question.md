@@ -27,6 +27,12 @@
   验证token，减少网络资源浪费，头，主体，密钥
   1.签发token `jwt.sign({name:name,id:id},secret)`
   2.解析 `jwt.decode(token)`
+          `jwt.verify(token, secret, (err, decode) => {`
+            `if(err){err}`
+            `if(decode){`
+              `解码之后的 Token 数据`
+            `}`
+          `})`
 
 ### 7.bcrypt密码加密
  
